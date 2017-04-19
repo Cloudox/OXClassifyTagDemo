@@ -15,6 +15,10 @@
 		B876C5151EA77DF00083604F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B876C5131EA77DF00083604F /* LaunchScreen.storyboard */; };
 		B876C5201EA77DF00083604F /* OXClassifyTagDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B876C51F1EA77DF00083604F /* OXClassifyTagDemoTests.m */; };
 		B876C52B1EA77DF00083604F /* OXClassifyTagDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B876C52A1EA77DF00083604F /* OXClassifyTagDemoUITests.m */; };
+		B876C53A1EA780DD0083604F /* OXClassifyHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = B876C5391EA780DD0083604F /* OXClassifyHeaderView.m */; };
+		B876C53D1EA783060083604F /* ic_classify_down_row.png in Resources */ = {isa = PBXBuildFile; fileRef = B876C53B1EA783060083604F /* ic_classify_down_row.png */; };
+		B876C53E1EA783060083604F /* ic_classify_title.png in Resources */ = {isa = PBXBuildFile; fileRef = B876C53C1EA783060083604F /* ic_classify_title.png */; };
+		B876C5411EA783760083604F /* OXTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B876C5401EA783760083604F /* OXTagModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,12 @@
 		B876C5261EA77DF00083604F /* OXClassifyTagDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OXClassifyTagDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B876C52A1EA77DF00083604F /* OXClassifyTagDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OXClassifyTagDemoUITests.m; sourceTree = "<group>"; };
 		B876C52C1EA77DF00083604F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B876C5381EA780DD0083604F /* OXClassifyHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXClassifyHeaderView.h; sourceTree = "<group>"; };
+		B876C5391EA780DD0083604F /* OXClassifyHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXClassifyHeaderView.m; sourceTree = "<group>"; };
+		B876C53B1EA783060083604F /* ic_classify_down_row.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_classify_down_row.png; sourceTree = "<group>"; };
+		B876C53C1EA783060083604F /* ic_classify_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_classify_title.png; sourceTree = "<group>"; };
+		B876C53F1EA783760083604F /* OXTagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXTagModel.h; sourceTree = "<group>"; };
+		B876C5401EA783760083604F /* OXTagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXTagModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +115,10 @@
 				B876C5091EA77DF00083604F /* AppDelegate.m */,
 				B876C50B1EA77DF00083604F /* ViewController.h */,
 				B876C50C1EA77DF00083604F /* ViewController.m */,
+				B876C5381EA780DD0083604F /* OXClassifyHeaderView.h */,
+				B876C5391EA780DD0083604F /* OXClassifyHeaderView.m */,
+				B876C53F1EA783760083604F /* OXTagModel.h */,
+				B876C5401EA783760083604F /* OXTagModel.m */,
 				B876C50E1EA77DF00083604F /* Main.storyboard */,
 				B876C5111EA77DF00083604F /* Assets.xcassets */,
 				B876C5131EA77DF00083604F /* LaunchScreen.storyboard */,
@@ -118,6 +132,8 @@
 			isa = PBXGroup;
 			children = (
 				B876C5061EA77DF00083604F /* main.m */,
+				B876C53B1EA783060083604F /* ic_classify_down_row.png */,
+				B876C53C1EA783060083604F /* ic_classify_title.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -207,6 +223,7 @@
 				TargetAttributes = {
 					B876C5011EA77DF00083604F = {
 						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = 7MF43XA67A;
 						ProvisioningStyle = Automatic;
 					};
 					B876C51A1EA77DF00083604F = {
@@ -248,7 +265,9 @@
 			files = (
 				B876C5151EA77DF00083604F /* LaunchScreen.storyboard in Resources */,
 				B876C5121EA77DF00083604F /* Assets.xcassets in Resources */,
+				B876C53D1EA783060083604F /* ic_classify_down_row.png in Resources */,
 				B876C5101EA77DF00083604F /* Main.storyboard in Resources */,
+				B876C53E1EA783060083604F /* ic_classify_title.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +292,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B876C5411EA783760083604F /* OXTagModel.m in Sources */,
 				B876C50D1EA77DF00083604F /* ViewController.m in Sources */,
 				B876C50A1EA77DF00083604F /* AppDelegate.m in Sources */,
+				B876C53A1EA780DD0083604F /* OXClassifyHeaderView.m in Sources */,
 				B876C5071EA77DF00083604F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +445,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7MF43XA67A;
 				INFOPLIST_FILE = OXClassifyTagDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.OXClassifyTagDemo;
@@ -435,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7MF43XA67A;
 				INFOPLIST_FILE = OXClassifyTagDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Cloudox.OXClassifyTagDemo;
