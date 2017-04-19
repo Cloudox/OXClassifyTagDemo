@@ -19,6 +19,7 @@
 		B876C53D1EA783060083604F /* ic_classify_down_row.png in Resources */ = {isa = PBXBuildFile; fileRef = B876C53B1EA783060083604F /* ic_classify_down_row.png */; };
 		B876C53E1EA783060083604F /* ic_classify_title.png in Resources */ = {isa = PBXBuildFile; fileRef = B876C53C1EA783060083604F /* ic_classify_title.png */; };
 		B876C5411EA783760083604F /* OXTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B876C5401EA783760083604F /* OXTagModel.m */; };
+		B876C5431EA7A9DA0083604F /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = B876C5421EA7A9DA0083604F /* demo.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +62,7 @@
 		B876C53C1EA783060083604F /* ic_classify_title.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_classify_title.png; sourceTree = "<group>"; };
 		B876C53F1EA783760083604F /* OXTagModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OXTagModel.h; sourceTree = "<group>"; };
 		B876C5401EA783760083604F /* OXTagModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OXTagModel.m; sourceTree = "<group>"; };
+		B876C5421EA7A9DA0083604F /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				B876C51E1EA77DF00083604F /* OXClassifyTagDemoTests */,
 				B876C5291EA77DF00083604F /* OXClassifyTagDemoUITests */,
 				B876C5031EA77DF00083604F /* Products */,
+				B876C5421EA7A9DA0083604F /* demo.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -264,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B876C5151EA77DF00083604F /* LaunchScreen.storyboard in Resources */,
+				B876C5431EA7A9DA0083604F /* demo.gif in Resources */,
 				B876C5121EA77DF00083604F /* Assets.xcassets in Resources */,
 				B876C53D1EA783060083604F /* ic_classify_down_row.png in Resources */,
 				B876C5101EA77DF00083604F /* Main.storyboard in Resources */,
