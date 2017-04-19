@@ -3,7 +3,7 @@
 
 因为项目需要实现了一个分类查找的界面，多个类别/指标之间有多级依赖关系，效果如下：
 
-![](http://img.blog.csdn.net/20170419220453231?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvQ2xvdWRveF8=/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
+![](https://github.com/Cloudox/OXClassifyTagDemo/blob/master/demo.gif)
 
 整个demo使用MVC架构。
 
