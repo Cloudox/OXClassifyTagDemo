@@ -184,8 +184,17 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];// 选中后取消选中的颜色
     
-    // 已选的打钩
+    // 已选的标记颜色
+    for (int i = 0; i < [tableView numberOfRowsInSection:indexPath.section]; i++) {
+        NSUInteger index[] = {indexPath.section, i};
+        NSIndexPath *tempIndexPath = [[NSIndexPath alloc] initWithIndexes:index length:2];
+        UITableViewCell *cell = [tableView cellForRowAtIndexPath:tempIndexPath];
+        cell.textLabel.textColor = [UIColor blackColor];
+    }
+    UITableViewCell *cell = [tableView cellForRowAtIndexPath:indexPath];
+    cell.textLabel.textColor = kUIColorFromRGB(0xFA7777);
     
+    // 选中后的操作
     switch (indexPath.section) {
         case 0:
             [self chooseTag:[self.firstArray objectAtIndex:indexPath.row] atIndex:indexPath.section];
@@ -200,7 +209,7 @@
     }
 }
 
-// 选个某个指标
+// 选择某个指标
 - (void)chooseTag:(OXTagModel *)tagModel atIndex:(NSInteger)sectionIndex  {
     if (!tagModel.isLeaf) {// 还有子节点
         switch (sectionIndex) {
