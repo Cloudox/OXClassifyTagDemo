@@ -22,4 +22,6 @@
 
 列表及一些逻辑放在Controller内，列表、delegate等，都比较常见。
 
+有帮助的话请star鼓励~
+
 更多内容可以查看[我的博客](http://blog.csdn.net/Cloudox_/article/details/70246020)
